@@ -10,6 +10,7 @@ def product_of_all_other_numbers(arr):
     new_list = []
     # make for loop (i)
     for i in range(len(arr)):
+        print(new_list)
         # set copy_arr here
         copy_list = arr.copy()
         # copy_arr.pop(i) to remove current index / value
@@ -19,7 +20,7 @@ def product_of_all_other_numbers(arr):
         # make another for loop (j)
         for j in range(len(copy_list)):
             # loop through to add integers and place in new array with multiplied values (i)
-            total_value = total_value * copy_list[j]
+            total_value *= copy_list[j]
             # when finished add total_value to its corresponding index (i) on new_list
             if j == len(copy_list) - 1:
                 new_list.insert(i, total_value)

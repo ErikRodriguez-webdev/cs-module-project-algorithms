@@ -13,6 +13,7 @@ def sliding_window_max(nums, k):
 
     # make for loop (i)
     for i in range(len(nums)):
+        print(temp_list)
         # append nums[i] to temp_list
         temp_list.append(nums[i])
 

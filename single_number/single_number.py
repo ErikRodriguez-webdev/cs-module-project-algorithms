@@ -2,6 +2,7 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
+# XOR operator look it up later
 
 
 def single_number(arr):

@@ -15,12 +15,12 @@ def moving_zeroes(arr):
     # make while loop run until move_zero is false (i)
     while move_zero:
         print(arr)
-        # safety net infinite loop
+        # safety net for infinite loop
         # if i > 500, then break
-        too_long += 1
+        # too_long += 1
 
-        if too_long > 15:
-            break
+        # if too_long > 50:
+        #     break
 
         # if i == length of array
         if i == len(arr):
